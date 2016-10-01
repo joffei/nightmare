@@ -11,22 +11,22 @@
         >
 
         <Spinner
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:id="@+id/hour"
-            android:layout_weight=".5" />
+            android:layout_weight=".5"/>
 
         <Spinner
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:id="@+id/min"
-            android:layout_weight=".5" />
+            android:layout_weight=".5"/>
 
         <Spinner
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:id="@+id/amPm"
-            android:layout_weight=".7" />
+            android:layout_weight=".2"/>
     </LinearLayout>
 
     <LinearLayout
